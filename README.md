@@ -25,26 +25,32 @@ Low-level systems programmer focused on the **from scratch** approach — if you
 ### Cosinus OS
 An operating system built from scratch on a **microkernel** architecture.  
 A long-term project — full control over every layer of the system.
-
+**canceled**
 ---
 
 ### SinPR
 A low-level programming language designed for **OS dev**.  
 Natively integrated with Cosinus OS.
-
+*replaced by xore-lang*
 ---
 
 ### Brass Engine
 A minimalist game engine written in **Rust**.  
 No bloat — only what's needed.
-
+*replaced*
 ---
 
 ### ctrlGPU
 A library for low-level GPU communication over **Vulkan**.  
 An alternative to wgpu — closer to the metal.
-
+*canceled*
 ---
+
+### Luna os 
+luna os is an operating system project than succeeds cosinus os and
+the experimental tan os. unlike its predecessors luna os focuses more
+on practical usability than mathematical correctess.
+it is writen primarily in rust and C
 
 ## Philosophy
 
