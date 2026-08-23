@@ -1,64 +1,74 @@
+
 # ctrl-F-0rg3 — Kacper Kosiński
 
-> *Systems programmer from Inowrocław. Building an entire environment from scratch — kernel, language, libraries, engine. The tool fits the problem, not the other way around.*
+> *Low-level systems programmer and hardware researcher from Inowrocław, Poland. Building custom operating system architectures, toolchains, memory management subsystems, and bare-metal software environment from scratch.*
 
----
+
 
 ## About
 
-Low-level systems programmer focused on the **from scratch** approach — if you can build it yourself, why use someone else's? I specialize in **Rust** and **ASM**, but I'm a programming polyglot — I reach for **Ada/SPARK**, **Zig**, or whatever fits the job. My main domain is **OS dev**, microkernel architecture, and low-level hardware communication.
+I focus on a **strict from-scratch philosophy**: understanding low-level systems and hardware execution models by implementing every layer ground-up without third-party frameworks. 
 
----
+My primary work revolves around **TrangorgeOS** and its custom driver policy architecture, alongside direct hardware engineering, RISC-V design research, and bare-metal C/Rust systems development.
 
-## Stack
 
-**Core:**
-`Rust` `x86 ASM` `Ada/SPARK` `Zig`
 
-**Domains:**
-`OS Development` `Systems Programming` `GPU Low-Level` `Language Design` `Game Engine`
+## Tech Stack
 
----
+**Primary / Core:**
+`Rust` `C` `x86_64 ASM` `Nim` `C++` `Ada/SPARK`
 
-## Projects
+**Secondary / Occasional:**
+`Zig` `Python` `Java` `JS` `TS` `HTML` `CSS`
 
-### Cosinus OS
-An operating system built from scratch on a **microkernel** architecture.  
-A long-term project — full control over every layer of the system.
-canceled
----
+**Operating Systems & Environments:**
+`Arch Linux` `Void Linux` `LFS (Linux From Scratch)` `Gentoo` `Parrot OS`
 
-### SinPR
-A low-level programming language designed for **OS dev**.  
-Natively integrated with Cosinus OS.
-replaced by xore-lang
----
 
-### Brass Engine
-A minimalist game engine written in **Rust**.  
-No bloat — only what's needed.
-replaced
----
 
-### ctrlGPU
-A library for low-level GPU communication over **Vulkan**.  
-An alternative to wgpu — closer to the metal.
-canceled
----
+## Hardware & Hardware Engineering
 
-### Luna os 
-luna os is an operating system project than succeeds cosinus os and
-the experimental tan os. unlike its predecessors luna os focuses more
-on practical usability than mathematical correctess.
-it is writen primarily in rust and C
+**Lab Setup:**
+Dual-monitor workstation, dedicated Linux business laptop, local home server, primary desktop PC.
+
+**Hardware & Electronics:**
+Bench equipment, soldering station, and physical prototyping tools. Actively involved in hardware design, processor architecture development, and custom RISC-V research.
+
+
+
+## Key Projects
+
+### [TrangorgeOS](https://github.com/CTRL-F-0rg3/TrangorgeOS)
+A modern bare-metal operating system built on a custom **Separated Tri-Partition Architecture** (*Architektura Trójpodziału Rozdzielnego*).
+- **Architecture:** Replaces standard hybrid/microkernels by enforcing strict driver isolation, modular trust domains, and fine-grained kernel policy enforcement over all system data flows.
+- **Memory Management:** Features a fully custom, bare-metal memory management subsystem and dynamic allocator written entirely in C.
+- **Stack:** `C`, `Rust`, `x86_64 ASM`
+
+### ctrlfile
+A custom build automation tool and project runner built specifically to handle the strict execution requirements of TrangorgeOS as a precise alternative to standard Makefiles.
+- **Features:** High-precision target execution, zero external runtime dependencies, dual implementation history.
+- **Stack:** `Rust` (main stable release) / `Zig` (experimental)
+
+### Dual BIOS/UEFI Bootloader
+A compact, standalone dual BIOS/UEFI bootloader featuring a custom graphical TUI boot selection menu written in under 1,000 lines of code.
+- **Features:** Multi-boot selection, direct hardware initialization, ultra-lightweight footprint.
+- **Stack:** `C`, `x86_64 ASM`
+
+
 
 ## Philosophy
 
-```
-Don't use a tool because it's popular.
-Use it because it solves the problem.
+
 ```
 
----
+If you can build it yourself, why rely on someone else's black box?
+Don't use a tool because it's popular. Use it because it solves the problem.
 
-*Inowrocław, PL — building from scratch, one commit at a time.*
+```
+
+
+
+<p align="center">
+  <i>Inowrocław, PL — Bare metal, one commit at a time.</i>
+</p>
+
