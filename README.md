@@ -66,11 +66,15 @@ Don't use a tool because it's popular. Use it because it solves the problem.
 
 ```
 
-### Metrics
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.lovesykun.cn/api?theme=tokyonight&username=CTRL-F-0rg3&show_icons=false&include_all_commits=true&hide_border=true">
+  <img src="https://github-readme-stats.lovesykun.cn/api?username=CTRL-F-0rg3&show_icons=false&include_all_commits=true&hide_border=true">
+</picture>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CTRL-F-0rg3&show_icons=false&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/CTRL-F-0rg3)
-
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CTRL-F-0rg3&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/CTRL-F-0rg3)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.lovesykun.cn/api/top-langs/?theme=tokyonight&username=CTRL-F-0rg3&layout=compact&hide_border=true&langs_count=8">
+  <img src="https://github-readme-stats.lovesykun.cn/api/top-langs/?username=CTRL-F-0rg3&layout=compact&hide_border=true&langs_count=8">
+</picture>
 
 <p align="center">
   <i>Inowrocław, PL — Bare metal, one commit at a time.</i>
