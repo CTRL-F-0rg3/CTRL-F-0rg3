@@ -65,7 +65,30 @@ If you can build it yourself, why rely on someone else's black box?
 Don't use a tool because it's popular. Use it because it solves the problem.
 
 ```
+### GitHub Stats & Metrics
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=CTRL-F-0rg3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CTRL-F-0rg3&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CTRL-F-0rg3&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+### 🛠️ Tech Stack Badges
+
+<p>
+  <img src="https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Assembly-%236E4C13.svg?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly" />
+  <img src="https://img.shields.io/badge/Arch%20Linux-%231793D1.svg?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/QEMU-%23D8112A.svg?style=for-the-badge&logo=qemu&logoColor=white" alt="QEMU" />
+</p>
 
 
 <p align="center">
