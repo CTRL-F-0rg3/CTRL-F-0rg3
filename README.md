@@ -68,13 +68,9 @@ Don't use a tool because it's popular. Use it because it solves the problem.
 
 ### Metrics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CTRL-F-0rg3&show_icons=false&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CTRL-F-0rg3&show_icons=false&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/CTRL-F-0rg3)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CTRL-F-0rg3&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most Used Languages" />
-</p>
+[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CTRL-F-0rg3&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/CTRL-F-0rg3)
 
 <p align="center">
   <i>Inowrocław, PL — Bare metal, one commit at a time.</i>
